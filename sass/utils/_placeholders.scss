@@ -1,0 +1,103 @@
+%container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+%link {
+  text-decoration-line: none;
+  display: block;
+}
+
+%without {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+%logo {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $color-accent;
+}
+
+%pos-rel {
+  position: relative;
+  display: block;
+}
+
+%pos-rel-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+%pos-absol {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+%pad-bot-top {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+%social-links {
+  fill: currentColor;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transition: $animation;
+}
+
+%join-in {
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $bgc-pages;
+  letter-spacing: 0.03em;
+}
+
+%button {
+  display: inline-flex;
+  align-items: center;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  color: $bgc-pages;
+  background-color: $color-accent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+%hero-bg {
+  margin: 0 auto;
+  max-width: 1600px;
+  max-height: 600px;
+}
+
+%visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

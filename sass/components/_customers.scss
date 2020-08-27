@@ -1,0 +1,27 @@
+.customers {
+  display: flex;
+}
+
+.customer-item {
+  width: calc((100%-150px) / 6);
+}
+
+.customer-link {
+  height: 90px;
+
+  color: $color-social;
+  border: 1px solid $color-social;
+  box-sizing: border-box;
+  border-radius: $border-radius;
+
+  fill: currentColor;
+
+  transition: $animation;
+
+  &:hover,
+  &:focus {
+    color: $color-accent;
+    border: 1px solid $color-accent;
+    outline: none;
+  }
+}

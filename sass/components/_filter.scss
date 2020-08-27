@@ -1,0 +1,33 @@
+.filter {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.filter-button {
+  margin-right: 8px;
+  padding: 6px 22px;
+
+  min-width: 103px;
+  height: 38px;
+
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  background: $bgc-icon-filtr;
+  border-radius: $border-radius;
+  border: none;
+
+  transition: $animation;
+
+  &:hover,
+  &:focus {
+    color: $bgc-pages;
+    background-color: $color-accent;
+  }
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}

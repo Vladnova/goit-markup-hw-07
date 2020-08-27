@@ -1,0 +1,30 @@
+.container-pd-top {
+  @extend %container;
+  padding-top: 94px;
+}
+
+.features-item {
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+
+  background-color: $bgc-icon-filtr;
+  border-radius: $border-radius;
+}
+
+.feature-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  letter-spacing: $letter-spacing;
+
+  color: $color-title;
+}
+
+.feature-text {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  line-height: 1.71;
+}
